@@ -30,4 +30,22 @@ For the hair, I first created two ellipses which intersected in the middle of th
 
 For the eyes, I created two arcs bounded by chords to represent the section of the eyeball which was visible. I then created two ellipses to represent the irises and two points for the pupils.
 
+![Nose](images/Screenshot%20(123).png)
 
+For the nose, I created two arcs to represent the outline of the nose.
+
+![Mouth](images/Screenshot%20(124).png)
+
+For the mouth, I created an arc bounded by a chord and filled it in with white to represent the teeth.
+
+![Earrings](images/Screenshot%20(125).png)
+
+The earrings were represented by two circles and filled in with a gold colour.
+
+![Neck/hands](images/Screenshot%20(126).png)
+
+I used a triangle to represent the neck and the hands and moved it behind the face but in front of the back hair.
+
+![Shirt](images/Screenshot%20(127).png)
+
+The shirt is represented by a rectangle filled in with a burgundy colour.
