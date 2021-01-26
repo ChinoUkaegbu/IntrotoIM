@@ -51,9 +51,11 @@ I used a triangle to represent the neck and the hands and moved it behind the fa
 The shirt is represented by a rectangle filled in with a burgundy colour.
 
 </br>
+
 **Difficulties/Interesting Things I Found**
 
 The major difficulties I faced were with estimating the coordinates to indicate for the shapes as well as figuring out how the arc function woked.
 Also, at the beginning, for the stars, I wanted the stars to be distributed at random positions in the background but i could not figure out how to do that so I created manual, static stars instead.
 While trying to create the eyes, i found the CHORD option for drawing an arc which I thought was really cool.
+I used the line break in GitHub but I still don't fully understand how the line breaks and spaces work.
 I also discovered that while upoading images, you can replace the space in the image name with "%20" and it will be displayed.
