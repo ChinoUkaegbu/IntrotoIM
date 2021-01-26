@@ -24,3 +24,10 @@ After I was through with the background, I got to work on the head which is an e
 
 ![Hair](images/Screenshot%20(121).png)
 
+For the hair, I first created two ellipses which intersected in the middle of the head and move them behind the head. Then for the hairs framing the face, I created arcs and positioned them in front of the face.
+
+![Eyes](images/Screenshot%20(122).png)
+
+For the eyes, I created two arcs bounded by chords to represent the section of the eyeball which was visible. I then created two ellipses to represent the irises and two points for the pupils.
+
+
