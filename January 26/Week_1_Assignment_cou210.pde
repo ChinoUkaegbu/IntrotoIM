@@ -29,7 +29,7 @@ ellipse(150, 500, 5, 5);
 ellipse(350, 150, 5, 5);
 ellipse(210, 700, 5, 5);
 
-//Hair
+//Back hair
 
 fill(0);
 stroke(0);
