@@ -1,1 +1,3 @@
-For Assignment
+# Self Portrait Assignment
+
+## Chinonyerem Ukaegbu
