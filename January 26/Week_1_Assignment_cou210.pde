@@ -43,7 +43,7 @@ stroke(121, 85, 46);
 strokeWeight(3);
 triangle(500, 600, 352, 685, 648, 685);
 
-//Face
+//Head
 
 fill(141, 85, 46);
 stroke(121, 85, 46);
