@@ -10,4 +10,4 @@ The task was to create a self portrait using Processing in order to practice usi
 
 Because I couldn't make the portrait exceedingly complex, I opted to include subtle elements that were a representation of myself in the portrait.
 
-![Background only](images/Screenshot%20(118))
+![Background only](images/Screenshot%20(118).png)
