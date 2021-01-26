@@ -50,6 +50,7 @@ I used a triangle to represent the neck and the hands and moved it behind the fa
 
 The shirt is represented by a rectangle filled in with a burgundy colour.
 
+</br>
 **Difficulties/Interesting Things I Found**
 
 The major difficulties I faced were with estimating the coordinates to indicate for the shapes as well as figuring out how the arc function woked.
