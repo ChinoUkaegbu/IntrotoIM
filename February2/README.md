@@ -76,4 +76,4 @@ Now, the final product looks like this:
 
 **Difficulties**
 
-It was a bit confusing finding points on the canvas but displaying the mouse coordinates was very helpful. Also, there was a lot of trial and error with positioning and using the if() function for each object I created was quite tedious but not impossible. It was a really fun project to do and I really enjoyed creating it.
+It was a bit confusing finding points on the canvas but displaying the mouse coordinates was very helpful. Also, there was a lot of trial and error with positioning and using the if() function for each object I created was quite tedious but not impossible. And at some point, I wanted to assign a pair of coordinatesto a variable but I didn't know what function to use and I tried a bunch but I didn't get the results I was hoping for, so I just scratched that. It was a really fun project to do and I really enjoyed creating it.
