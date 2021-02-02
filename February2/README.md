@@ -41,3 +41,9 @@ It sounded really cool so I decided to base my artwork off of what I thought one
 * Finally, the circles floating around the screen. i added those because they reminded me of the little spots we see when we close our eyes and face a light source.
 
 ![Mode 1 - Points](images/Screenshot%20(173).png)
+
+I wanted a sort of alternate universe with the same shapes but different colours so I added some code to switch between modes when the mouse crossed over the 400 x-coordinate.]
+
+* So the background became
+
+![Mode 2 - Background](images/Screenshot%20(174).png)
