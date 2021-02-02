@@ -22,6 +22,14 @@ It sounded really cool so I decided to base my artwork off of what I thought one
 
 ![Mode 1 - Background](images/Screenshot%20(168).png)
 
-* I then two circles with each circle having a concentric circle within it.
+* I then drew two circles with each circle having a concentric circle within it.
 
 ![Mode 1 - Circles](images/Screenshot%20(169).png)
+
+* Then, I drew two arcs at the top left and bottom right corners of the canvas.
+
+![Mode 1 - Arcs](images/Screenshot%20(170).png)
+
+* Then, I three triangles equally spaced right angled triangles with hypotenuses along the diagonal line of canvas and created a reflection of these triangles along that line.
+
+![Mode 1 - Triangles](images/Screenshot%20(171).png)
