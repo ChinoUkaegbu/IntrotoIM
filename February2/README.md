@@ -44,6 +44,26 @@ It sounded really cool so I decided to base my artwork off of what I thought one
 
 I wanted a sort of alternate universe with the same shapes but different colours so I added some code to switch between modes when the mouse crossed over the 400 x-coordinate.]
 
-* So the background became
+* So the background became:
 
 ![Mode 2 - Background](images/Screenshot%20(174).png)
+
+* Then the circles:
+
+![Mode 2 - Circlesd](images/Screenshot%20(175).png)
+
+* The arcs:
+
+![Mode 2 - Arcs](images/Screenshot%20(176).png)
+
+* The triangles:
+
+![Mode 2 - Triangles](images/Screenshot%20(177).png)
+
+* The squares:
+
+![Mode 2 - Squares](images/Screenshot%20(178).png)
+
+* And the points:
+
+![Mode 2 - Points](images/Screenshot%20(179).png)
