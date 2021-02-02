@@ -1,5 +1,4 @@
-# Artwork Assignment - 
-# *Psychedelic
+# Artwork Assignment - pSycHeDEliC
 
 ## Chinonyerem Ukaegbu
 
