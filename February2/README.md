@@ -71,3 +71,8 @@ I wanted a sort of alternate universe with the same shapes but different colours
 Now, the final product looks like this:
 
 ![Final Animation](images/Week_2_Assignment_cou210_Video_gif.gif)
+
+</br>
+
+**Difficulties**
+It was a bit confusing finding points on the canvas but displaying the mouse coordinates was very helpful. Also, there was a lot of trial and error with positioning and using the if() function for each object I created was quite tedious but not impossible. It was a really fun project to do and I really enjoyed creating it.
