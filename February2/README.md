@@ -70,4 +70,4 @@ I wanted a sort of alternate universe with the same shapes but different colours
 
 Now, the final product looks like this:
 
-![Final Animation](images/Week_2_Assignment_cou210_Video.gif)
+![Final Animation](images/Week_2_Assignment_cou210_Video_gif.gif)
