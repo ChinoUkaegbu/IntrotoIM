@@ -20,13 +20,13 @@ void draw() {
   } else {
     background(255, 215, 0);
   }
-  int concentric_square =5;
+  int square_pattern_origin =5;
   noFill();
   stroke(0);
   line(0, 0, 800, 800);
-  while (concentric_square < width) {
-    rect(0, 0, concentric_square, concentric_square);
-    concentric_square = concentric_square + 5;
+  while (square_pattern_origin < width) {
+    rect(0, 0, square_pattern_origin, square_pattern_origin);
+    square_pattern_origin = square_pattern_origin + 5;
   }
 
 
