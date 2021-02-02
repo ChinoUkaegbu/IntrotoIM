@@ -33,3 +33,11 @@ It sounded really cool so I decided to base my artwork off of what I thought one
 * Then, I three triangles equally spaced right angled triangles with hypotenuses along the diagonal line of canvas and created a reflection of these triangles along that line.
 
 ![Mode 1 - Triangles](images/Screenshot%20(171).png)
+
+* Then came the squares floating around the screen. I created three squares and made their positions random so that it seemed as though they were floating around the screen.
+
+![Mode 1 - Squares](images/Screenshot%20(172).png)
+
+* Finally, the circles floating around the screen. i added those because they reminded me of the little spots we see when we close our eyes and face a light source.
+
+![Mode 1 - Points](images/Screenshot%20(173).png)
