@@ -15,3 +15,6 @@ I had no idea what I wanted to create prior to running the software. While Proce
 
 
 It sounded really cool so I decided to base my artwork off of what I thought one would picture in a psychedelic state which is responsible for the symmetric patterns, weird colours and shifting shapes present in the design.
+
+**Process**
+
