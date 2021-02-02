@@ -18,3 +18,4 @@ It sounded really cool so I decided to base my artwork off of what I thought one
 
 **Process**
 
+I set the canvas to a square shape with 800x800 dimensions and created concentric
