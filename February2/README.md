@@ -18,6 +18,10 @@ It sounded really cool so I decided to base my artwork off of what I thought one
 
 **Process**
 
-I set the canvas to a square shape with 800x800 dimensions and used the loop to create multiple squares all originating from a square in the top left corner. I also defined a line that passed through diagonals of all the squares, for aesthetic purposes.
+* I set the canvas to a square shape with 800x800 dimensions and used the loop to create multiple squares all originating from a square in the top left corner. I also defined a line that passed through diagonals of all the squares, for aesthetic purposes.
 
+![Mode 1 - Background](images/Screenshot%20(169).png)
 
+* I then two circles with each circle having a concentric circle within it.
+
+![Mode 1 - Circles](images/Screenshot%20(170).png)
