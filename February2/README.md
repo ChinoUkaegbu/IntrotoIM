@@ -67,3 +67,7 @@ I wanted a sort of alternate universe with the same shapes but different colours
 * And the points:
 
 ![Mode 2 - Points](images/Screenshot%20(179).png)
+
+Now, the final product looks like this:
+
+![Final Animation](images/Week_2_Assignment_cou210_Video.gif)
