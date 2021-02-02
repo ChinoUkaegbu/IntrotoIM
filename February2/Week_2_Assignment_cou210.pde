@@ -20,13 +20,13 @@ void draw() {
   } else {
     background(255, 215, 0);
   }
-  int rhombus =5;
+  int concentric_square =5;
   noFill();
   stroke(0);
   line(0, 0, 800, 800);
-  while (rhombus < width) {
-    rect(0, 0, rhombus, rhombus);
-    rhombus = rhombus + 5;
+  while (concentric_square < width) {
+    rect(0, 0, concentric_square, concentric_square);
+    concentric_square = concentric_square + 5;
   }
 
 
