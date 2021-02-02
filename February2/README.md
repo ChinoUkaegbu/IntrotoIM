@@ -30,7 +30,7 @@ It sounded really cool so I decided to base my artwork off of what I thought one
 
 ![Mode 1 - Arcs](images/Screenshot%20(170).png)
 
-* Then, I three triangles equally spaced right angled triangles with hypotenuses along the diagonal line of canvas and created a reflection of these triangles along that line.
+* Then, I drew three triangles equally spaced right angled triangles with hypotenuses along the diagonal line of canvas and created a reflection of these triangles along that line.
 
 ![Mode 1 - Triangles](images/Screenshot%20(171).png)
 
