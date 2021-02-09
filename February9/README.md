@@ -105,4 +105,14 @@ stroke(255, 255, 255);
   }
   ```
 
-The if block is basically ensuring that if the circumference of the ball touches any part of the "walls" there is a colour change to indicate that the player has lost. If not, the colour of the ball remains the same
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp The if block is basically ensuring that if the circumference of the ball touches any part of the "walls" there is a colour change to indicate that the player has lost. If not, the colour of the ball remains the same
+</p>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp So now, whenever the ball is not passing through the path, i.e is in contact with the walls of the maze, there is a colour change
+</p>
+
+
+![Boundary_Crossed_Ball_Colour](images/Screenshot%20(185).png)
+
+* The final game looks like this:
+
+![Final_Animation](images/Week_3_Assignment_cou210_Video_gif.gif)
