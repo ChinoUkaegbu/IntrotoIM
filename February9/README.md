@@ -56,6 +56,7 @@ stroke(255, 255, 255);
 
 </p>
 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Then I had to use and if statement and set certain boundaries so that the program would run as I had intended.
+</p>
 
 ```js
   //Ball 
@@ -93,7 +94,7 @@ stroke(255, 255, 255);
       || (mouseX>=1045-r && mouseX<=1095+r) && (mouseY>=200-r && mouseY<=1200)
       || (mouseX>=1145-r && mouseX<=1195+r) && (mouseY>=350-r && mouseY<=1200)
       ) 
-      //The subtraction or addition of the radius is to ensure that the colour changes when the perimeter of the circle touches the rectangle rather than the centre of the circle
+      //The subtraction or addition of the radius is to ensure that the colour changes when the circumference of the circle touches the rectangle rather than the centre of the circle
     {
       fill(183, 36, 27);
       ellipse(mouseX, mouseY, 20, 20);
@@ -103,3 +104,5 @@ stroke(255, 255, 255);
     }
   }
   ```
+
+The if block is basically ensuring that if the circumference of the ball touches any part of the "walls" there is a colour change to indicate that the player has lost. If not, the colour of the ball remains the same
