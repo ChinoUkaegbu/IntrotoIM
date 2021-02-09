@@ -70,6 +70,7 @@ void draw() {
       || (mouseX>=1045-r && mouseX<=1095+r) && (mouseY>=200-r && mouseY<=1200)
       || (mouseX>=1145-r && mouseX<=1195+r) && (mouseY>=350-r && mouseY<=1200)
       ) 
+      //The subtraction or addition of the radius is to ensure that the colour changes when the perimeter of the circle touches the rectangle rather than the centre of the circle
     {
       fill(183, 36, 27);
       ellipse(mouseX, mouseY, 20, 20);
