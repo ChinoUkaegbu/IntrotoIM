@@ -46,3 +46,5 @@ stroke(255, 255, 255);
 * So the layout looked like this
 
 ![Rectangles](images/Screenshot%20(183).png)
+
+* Then came the fun (and tedious :weary: )part
