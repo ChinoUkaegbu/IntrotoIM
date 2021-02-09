@@ -47,4 +47,5 @@ stroke(255, 255, 255);
 
 ![Rectangles](images/Screenshot%20(183).png)
 
-* Then came the fun (and tedious :weary: )part
+* Then came the fun (and tedious :weary:) part: creating the ball and programming it to signal when it's perimeter had touched the walls of the maze
+~ I first had to create the ball and set the default colour
