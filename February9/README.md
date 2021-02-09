@@ -49,7 +49,7 @@ stroke(255, 255, 255);
 
 * Then came the fun (and tedious :weary:) part: creating the ball and programming it to signal when it's perimeter had touched the walls of the maze
 </p>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp I first had to create the ball and set the default colour
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp I first had to create the ball and set the default colour. I wanted the ball to be controlled by the mouse so I used mouseX and mouseY as input.
 </p>
 
 ![Default_Ball_Colour](images/Screenshot%20(184).png)
@@ -110,9 +110,22 @@ stroke(255, 255, 255);
 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp So now, whenever the ball is not passing through the path, i.e is in contact with the walls of the maze, there is a colour change
 </p>
 
-
 ![Boundary_Crossed_Ball_Colour](images/Screenshot%20(185).png)
 
 * The final game looks like this:
 
 ![Final_Animation](images/Week_3_Assignment_cou210_Video_gif.gif)
+
+</br>
+
+**Difficulties**
+
+When I had to define the boundaries that would trigger a colour change in the ball, it was very confusing at first but once I did the first one, it was much easier to define the others and use the or operator to join the statements
+
+**Possible Improvements**
+
+In future versions, there could be a start page and instead of just a colour change when the ball goes out of the path, the game could display a message and revert to the start page. Also, the canvas could be transformed in order to give the impression that the game continues infinitely unless the game is lost.
+
+**Interesting Things I Found**
+
+I found out how to insert blocks of code into GitHub and how to include emojis in markdown which I think is really cool. I also began to appreciate more the importance of inline comments and appropriate variables to make the code easier to read.
