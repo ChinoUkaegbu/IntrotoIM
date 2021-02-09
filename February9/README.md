@@ -18,6 +18,7 @@ I'm a big fan of puzzles - sudoku, crosswords, jigsaws, and the game I created w
 ![Background](images/Screenshot%20(182).png)
 
 * Then I got to work on the layout of the maze. I created an array for the x-coordinates of the rectangle and for the y-coordinates of the rectangle.
+
 ```js
  //Rectangles
 
@@ -27,4 +28,18 @@ I'm a big fan of puzzles - sudoku, crosswords, jigsaws, and the game I created w
   int[] y = { 
     500, 200, 400, 600, 200, 600, 400, 600, 400, 300, 600, 450 // y refers to the y-coordinates of the rectangles
   };
+  ```
+  
+* Then using the for loop, I played around with some values to create rectangles of varying height, varying position, but equal width until the maze looked a little complicated. I then filled in the rectangles with colour and outlined them so that the boundaries of the maze would stand out
+
+```js
+stroke(255, 255, 255);
+  fill(245, 143, 146);
+
+  // To read one array element each time through the for loop and draw the rectangles
+
+  for (int i = 0; i < x.length; i++) {
+    rect(x[i]+20, 800 - y[i], 50, y[i]);
+    rect(x[i], 0, 50, 600-y[i]);
+  }
   ```
