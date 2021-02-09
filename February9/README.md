@@ -43,3 +43,6 @@ stroke(255, 255, 255);
     rect(x[i], 0, 50, 600-y[i]);
   }
   ```
+* So the layout looked like this
+
+![Rectangles](images/Screenshot%20(183).png)
