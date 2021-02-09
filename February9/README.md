@@ -50,9 +50,11 @@ stroke(255, 255, 255);
 * Then came the fun (and tedious :weary:) part: creating the ball and programming it to signal when it's perimeter had touched the walls of the maze
 </p>
 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp I first had to create the ball and set the default colour
+</p>
 
 ![Default_Ball_Colour](images/Screenshot%20(184).png)
 
+</p>
 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Then I had to use and if statement and set certain boundaries so that the program would run as I had intended.
 
 ```js
