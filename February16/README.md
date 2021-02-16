@@ -77,3 +77,5 @@ for ( int i = 0; i < yearData.length; i++) {
    ``` 
    
 The final output looked like this:
+
+![Final](images/Screenshot%20(195).png)
