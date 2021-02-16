@@ -79,3 +79,16 @@ for ( int i = 0; i < yearData.length; i++) {
 The final output looked like this:
 
 ![Final](images/Screenshot%20(195).png)
+
+**Difficulties**
+
+The major difficulty I faced was with reading data from a CSV file with multiple columns. I wanted to access the data in a column and not in a row but I couldn't find any function that could do that which was why I had to seperate the fields into different CSV files in the first place. 
+
+**Interesting Things I Found**
+
+I found out that there was a circle() function. I thought it was only ellipse() that was available. I could've used ellipse() of course but circle() was much more convenient.
+Also, even though I didn't use it in this program, I learnt how to create or read data from tables in Processing.
+
+**Possible Improvements**
+
+I wanted to use a sort of mouseOver function so that anytime the mouse hovered over a circle, the name of the song would be displayed but I did not know how to. I believe I'd have to rewrite the program and include a class so that that would be implementable and it would really pull the design together. 
