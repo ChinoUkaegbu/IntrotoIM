@@ -18,3 +18,27 @@ There were a couple of datasets with the song lyrics separated by line number, b
 
 </br>
 I needed to count the number of characters per song lyric so I first had to download the CSV file, load it up in Excel, remove the forward slashes(/) that had been used to separate each line and then use an excel formula to calculate the number of characters in each song lyric entry.
+</br>
+I did not need the column for the artiste's name and because each album was released in a different year, I deleted the column for album name and opted to use the column for year of release as an identifier instead.
+
+</br>
+I then created four files, one for the year of release, one for the track number, one for the length of lyrics and the last for the title of the tracks and loaded them into Processing.
+
+```js
+String year[];
+String track_n[];
+String lyric_length[];
+String track_title[];
+
+
+void setup() {
+  size(1600, 1000);
+  background(105, 102, 103);
+
+  //Load files into array
+  
+  year = loadStrings("year.csv");
+  track_n = loadStrings("track_n.csv");
+  lyric_length = loadStrings("lyric_length.csv");
+  track_title = loadStrings("track_title.csv");
+  ```
