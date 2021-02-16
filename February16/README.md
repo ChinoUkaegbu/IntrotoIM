@@ -42,3 +42,37 @@ void setup() {
   lyric_length = loadStrings("lyric_length.csv");
   track_title = loadStrings("track_title.csv");
   ```
+
+After I decided that I wanted the data to be represented as circles, I got to work on translating the data into what I had planned in Processing. The radius of the circle increased as the length of the lyrics increased, the songs that were from the same album had the same colour and the songs that had the same track number from various albums were on the same y-axis
+I did this by playing around with some values until I was ultimately satisfied with what the code looked like
+
+```js
+for ( int i = 0; i < yearData.length; i++) {
+    if (yearData[i]==2006) {   //2006
+      fill(255, 236, 148);
+      circle(random(200, 1400), track_nData[i]+50, lyric_lengthData[i]/20);
+    }
+    if (yearData[i]==2008) {   //2008
+      fill(255, 174, 174);
+      circle(random(200, 1400), track_nData[i]+50, lyric_lengthData[i]/20);
+    }
+    if (yearData[i]==2010) {   //2010
+      fill(143, 96, 72);
+      circle(random(200, 1400), track_nData[i]+50, lyric_lengthData[i]/20);
+    }
+    if (yearData[i]==2012) {   //2012
+      fill(176, 229, 124);
+      circle(random(200, 1400), track_nData[i]+50, lyric_lengthData[i]/20);
+    }
+    if (yearData[i]==2014) {   //2014
+      fill(180, 216, 231);
+      circle(random(200, 1400), track_nData[i]+50, lyric_lengthData[i]/20);
+    }
+    if (yearData[i]==2017) {   //2017
+      fill(86, 186, 236);
+      circle(random(200, 1400), track_nData[i]+50, lyric_lengthData[i]/20);
+    }
+    fill(255, 255, 255);
+    ```
+    
+    The final output looked like this:
