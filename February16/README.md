@@ -92,3 +92,7 @@ Also, even though I didn't use it in this program, I learnt how to create or rea
 **Possible Improvements**
 
 I wanted to use a sort of mouseOver function so that anytime the mouse hovered over a circle, the name of the song would be displayed but I did not know how to. I believe I'd have to rewrite the program and include a class so that that would be implementable and it would really pull the design together. 
+
+**Conclusion**
+
+At first, I thought the assignment was going to be really boring because it seemed like dealing with datasets was just tedious and uninteresting. However, manipulating these data sets and being able to create visuals is actually reallyu cool and the possibilites are really endless when it comes to data manipulation and visualization.
