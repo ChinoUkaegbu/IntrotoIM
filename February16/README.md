@@ -1,4 +1,4 @@
-# Generative Text Assignment - *Call It What You Want*
+# Data Visualization Assignment - *Call It What You Want*
 
 ## Chinonyerem Ukaegbu
 
