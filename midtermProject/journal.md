@@ -12,3 +12,4 @@
 + A bit confused about where I would put the background(either setup or draw)
 + Put it in setup() at first and got this:
 
+![Setup()Error](imagesTrials/Screenshot%20(224).png)
