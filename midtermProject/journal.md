@@ -14,4 +14,4 @@
 
 ![Setup()Error](imagesTrials/Screenshot%20(224).png)
 
-+ Realized my mistake and moved it to draw. I also found out that writing the code for the background after the code for the ball would result in the ball being covered by the background instead of drawing over the background so that was really cool.
++ Realized my mistake and moved it to draw(). I also found out that writing the code for the background after the code for the ball would result in the ball being covered by the background instead of drawing over the background so that was really cool.
