@@ -25,3 +25,4 @@
 ![RollingBowl](imagesTrials/rollingbowl.gif)
 
 + Will try working on creating the objects falling down the sky today. Thinking of it being like either by shape or by colour. I should get the colour working first though at least. But the idea is that after a certain frameCount maybe, there will be text displayed on the screen as per collect triangle, circle, you g sha regardless of colour. That is if I don't fall asleep first :guardsman:
++ I also discovered rectMode() and ellipseMode(). Wonder if I'll use them. They have the potential to make drawing these shapes a bit easier.
