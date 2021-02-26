@@ -23,3 +23,5 @@
 + Created "bowl" that would collect the falling objects and programmed it so that it would move in the same way as the rolling ball. TO be honest, I was kind of scared that here would be lag because I used mouseX and the bowl would be moving very frequently but, so far, so good :smiley:
 
 ![RollingBowl](imagesTrials/rollingbowl.gif)
+
++ Will try working on creating the objects falling down the sky today. Thinking of it being like either by shape or by colour. I should get the colour working first though at least. But the idea is that after a certain frameCount maybe, there will be text displayed on the screen as per collect triangle, circle, you g sha regardless of colour. That is if I don't fall asleep first :guardsman:
