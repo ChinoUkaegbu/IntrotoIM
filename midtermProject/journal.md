@@ -18,3 +18,8 @@
 + I also found out the dimensions I had to use for the ball to look as if it were rolling smoothly on the ground when the mouse was moved. Now I have to see how I'll implement this when I change it from a ball to the actual object that would catch the falling objects. Sigh
 
 ![RollingBall](imagesTrials/rollingball.gif)
+
+### February 26
++ Created "bowl" that would collect the falling objects and programmed it so that it would move in the same way as the rolling ball. TO be honest, I was kind of scared that here would be lag because I used mouseX and the bowl would be moving very frequently but, so far, so good :smiley:
+
+![RollingBowl](imagesTrials/rollingbowl.gif)
