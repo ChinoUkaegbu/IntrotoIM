@@ -29,3 +29,4 @@
 
 ### February 27
 + Lol I fell asleep. Anyways I decided to make drawing the bowl a function and I also made the bowl smaller. I honestly would've just left it in the code plainly but I want some modularity and I think it would be helpful in creating classes maybe IDK?
++ Update: I'm getting the hang of this whole class object thing. However, I was trying to create a class for the triangles that were falling from the sky and when I initialized the object, I placed it after the image and I got a Null Pointer Exception Message which was weird and so I moved the initialization to the line after size() in setup() which was before I initialized the image and it was working fine. I wonder why though?
