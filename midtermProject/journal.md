@@ -26,3 +26,6 @@
 
 + Will try working on creating the objects falling down the sky today. Thinking of it being like either by shape or by colour. I should get the colour working first though at least. But the idea is that after a certain frameCount maybe, there will be text displayed on the screen as per collect triangle, circle, you g sha regardless of colour. That is if I don't fall asleep first :guardsman:
 + I also discovered rectMode() and ellipseMode(). Wonder if I'll use them. They have the potential to make drawing these shapes a bit easier.
+
+### February 27
++ Lol I fell asleep. Anyways I decided to make drawing the bowl a function and I also made the bowl smaller. I honestly would've just left it in the code plainly but I want some modularity and I think it would be helpful in creating classes maybe IDK?
