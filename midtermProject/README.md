@@ -25,11 +25,11 @@ Most of the beginning process can be found in the journal.md file: [MidtermJourn
 
 + After I had figured out the frame work for the game, I created three classes for the falling objects: a class for the squares, a class for the circles and a class for the triangles.
 
-[SquareClass] https://github.com/ChinoUkaegbu/IntrotoIM/blob/main/midtermProject/SquareClass.pde
+[SquareClass](https://github.com/ChinoUkaegbu/IntrotoIM/blob/main/midtermProject/SquareClass.pde)
 
-[TriangleClass] https://github.com/ChinoUkaegbu/IntrotoIM/blob/main/midtermProject/TriangleClass.pde
+[TriangleClass](https://github.com/ChinoUkaegbu/IntrotoIM/blob/main/midtermProject/TriangleClass.pde)
 
-[CircleClass] https://github.com/ChinoUkaegbu/IntrotoIM/blob/main/midtermProject/CircleClass.pde
+[CircleClass](https://github.com/ChinoUkaegbu/IntrotoIM/blob/main/midtermProject/CircleClass.pde)
 
 **Difficulties**
 
