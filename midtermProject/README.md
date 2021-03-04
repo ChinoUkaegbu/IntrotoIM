@@ -55,14 +55,16 @@ for (i = 0; i < triangles.length; i++) {
 The display function is responsible for creating the triangle and colouring it. The fall function created the illusion of the triangle moving down by incrementing the y-coordinates of each vertex. And if the triangle touched the rim of the bowl, it would be "collected" using the disappear function. I needed a way for the objects to keep falling until the game was lost, so I just reset the y coordinates to zero and randomized the x-coordinates using the reset and fillers functions.
 
 + After that, I created a variable "score" which would keep track of the score and would be printed in text form on the bottom of the screen so that the player could keep track of their score.
-+Then, i needed a way to restart the game without closing and opening the Processing screen. I first designed three screens online. An initialization screen:
-[InitializationScreen](images/startscreen.png)
++Then, i needed a way to restart the game without closing and opening the Processing screen. I first designed three screens online. 
+
+An initialization screen:
+![InitializationScreen](images/startscreen.png)
 
 An instructions screen:
-[InstructionsScreen](images/instructionsscreen.png)
+![InstructionsScreen](images/instructionsscreen.png)
 
 And an End Screen
-[EndScreen](images/endscreen.png)
+![EndScreen](images/endscreen.png)
 
 **Difficulties**
 
