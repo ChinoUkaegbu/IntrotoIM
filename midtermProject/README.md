@@ -23,6 +23,14 @@ The game I created is called Falling Objects and was inspired by a game I used t
 
 Most of the beginning process can be found in the journal.md file: [MidtermJournal](https://github.com/ChinoUkaegbu/IntrotoIM/blob/main/midtermProject/journal.md)
 
++ After I had figured out the frame work for the game, I created three classes for the falling objects: a class for the squares, a class for the circles and a class for the triangles.
+
+[SquareClass]https://github.com/ChinoUkaegbu/IntrotoIM/blob/main/midtermProject/SquareClass.pde
+
+[TriangleClass]https://github.com/ChinoUkaegbu/IntrotoIM/blob/main/midtermProject/TriangleClass.pde
+
+[CircleClass]https://github.com/ChinoUkaegbu/IntrotoIM/blob/main/midtermProject/CircleClass.pde
+
 **Difficulties**
 
 The major difficulty I faced was with reading data from a CSV file with multiple columns. I wanted to access the data in a column and not in a row but I couldn't find any function that could do that which was why I had to seperate the fields into different CSV files in the first place. 
