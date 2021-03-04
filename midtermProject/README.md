@@ -31,6 +31,28 @@ Most of the beginning process can be found in the journal.md file: [MidtermJourn
 
 [CircleClass](https://github.com/ChinoUkaegbu/IntrotoIM/blob/main/midtermProject/CircleClass.pde)
 
+(The classes have essentially the same functions in each of them, just modified with respect to each shape)
+
++ Then I got to work on creating the illusion that the objects were falling from the sky and being collected in the bowl moving along the screen. Take for instance the code for the triangles:
+
+```js
+for (i = 0; i < triangles.length; i++) {
+    checkScore();
+    triangles[i].display();
+    triangles[i].fall();
+    if ((triangles[i]).x1 >= (mouseX - 30) && (triangles[i]).y1 == 510 && (triangles[i]).x3 <= (mouseX + 50) && (triangles[i]).y3 == 510) {
+      triangles[i].disappear();
+      losePoints.play();
+      score -= 100;
+    } else {
+      if (triangles[i].y2 == height) {
+        //triangles[i].reset();
+        triangles[i].fillers();
+      }
+    }
+  }
+```
+
 **Difficulties**
 
 The major difficulty I faced was with reading data from a CSV file with multiple columns. I wanted to access the data in a column and not in a row but I couldn't find any function that could do that which was why I had to seperate the fields into different CSV files in the first place. 
