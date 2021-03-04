@@ -78,17 +78,36 @@ And an end screen
 
 **Difficulties**
 
-The major difficulty I faced was with reading data from a CSV file with multiple columns. I wanted to access the data in a column and not in a row but I couldn't find any function that could do that which was why I had to seperate the fields into different CSV files in the first place. 
-
++ Making the objects disappear: I battled with this for several days and I initially opted to move the objects to the bottom of the screen if they were collected but eventually realized that I had been setting the alpha value of the colours wrongly.
++ Displaying the correct game screen: I still haven't figured this out completely. If you notice, the instructions screen actually isn't displayed. I thought of removing it completely but I decided against it.
++ Making the objects fall continuosly until game ended: I sorted this out by resetting the y-coordinates to zero and if you look closely at the triangles and , they seem to just pop up out of nowhere at times. This is because of the fillers() function and I added it to sort of create an element of surprise in the game.
++ 
 **Interesting Things I Found**
 
-I found out that there was a circle() function. I thought it was only ellipse() that was available. I could've used ellipse() of course but circle() was much more convenient.
-Also, even though I didn't use it in this program, I learnt how to create or read data from tables in Processing.
++ rectMode() and ellipseMode() - which can change how the origin is defined for rectangles and ellipses
++ alpha values - which are responsible for transparency in colours
++ public keyword 
 
 **Possible Improvements**
 
-I wanted to use a sort of mouseOver function so that anytime the mouse hovered over a circle, the name of the song would be displayed but I did not know how to. I believe I'd have to rewrite the program and include a class so that that would be implementable and it would really pull the design together. 
++ Because of the sound files, the program lags a little so perhaps I could do something to improve that - maybe converting from mp3 to aif or wav
++ I was thinking of switching the background image to another image after some frames had passed and using the modulus to alternate between the two images (the first would be the current background image and the second, a night time themed image to indicate that time has passed) but I didn't want to slow the program down
++ Increasing speed of objects falling as time passes
 
 **Conclusion**
 
-At first, I thought the assignment was going to be really boring because it seemed like dealing with datasets was just tedious and uninteresting. However, manipulating these data sets and being able to create visuals is actually reallyu cool and the possibilites are really endless when it comes to data manipulation and visualization.
+This was a really cool project to do and I thoroughly enjoyed it. I especially loved the sound effects because they sounded so real as though they had been produced by actual interaction between objects and not just lines of code. I also find the fact that we can simulate certain events just by writing code really intriguing and this project further fuelled my amazement. 
+
+**Cool Things the Game Does**
+
+Okay so this isn't really cool but you might have noticed the alternator variable in the function. Basically all it does is help me switch between 0 and 1 using modulus
+``` js
+if ((circles[i]).y - (circles[i]).radius == height) {
+        alternator++;
+        if (alternator%2 == 0) {
+          circles[i].reset();
+        } else {
+          circles[i].fillers();
+        }
+```
+Okay it does sound a bit boring on its own but I used it to determine where the circles would appear from when they had been reset (either from the top or from the middle of the screen) which honestly leaves so much to wonder about the potential of modulus.
