@@ -16,7 +16,7 @@ The game I created is called Falling Objects and was inspired by a game I used t
 + The player moves the bowl along the screen to collect the falling objects
 + The circles are worth 10 points and the squares are worth 20 points.
 + Watch out for the triangles! Collecting them results in a deduction of 100 points.
-+The game ends if your score falls below zero.
++ The game ends if your score falls below zero.
 + Goodluck!
 
 **Process**
