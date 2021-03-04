@@ -56,11 +56,11 @@ The display function is responsible for creating the triangle and colouring it. 
 
 + After that, I created a variable "score" which would keep track of the score and would be printed in text form on the bottom of the screen so that the player could keep track of their score.
 +Then, i needed a way to restart the game without closing and opening the Processing screen. I first designed three screens online. An initialization screen:
-[InitializationScreen](midtermProject/startscreen.png)
+[InitializationScreen](images/startscreen.png)
 An instructions screen:
-[InstructionsScreen](/instructionsscreen.png)
+[InstructionsScreen](images/instructionsscreen.png)
 And an End Screen
-[EndScreen](/endscreen.png)
+[EndScreen](images/endscreen.png)
 
 **Difficulties**
 
