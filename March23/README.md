@@ -111,13 +111,13 @@ Source: https://www.circuitstoday.com/simple-led-projects-using-arduino
 
 **Photos of Circuit**
 
-![1](images/Screenshot(294).jpg)
+![1](images/Screenshot%20(294).jpg)
 
-![2](images/Screenshot%20(295).jpg)
+![2](images/Screenshot%20(295).jpeg)
 
 ![3](images/Screenshot%20(296).jpg)
 
-![4](images/Screenshot%20(297).jpg)
+![4](images/Screenshot%20(297).jpeg)
 
 This was a really cool project to do and I thoroughly enjoyed it. I especially loved the sound effects because they sounded so real as though they had been produced by actual interaction between objects and not just lines of code. I also find the fact that we can simulate certain events just by writing code really intriguing and this project further fuelled my amazement. 
 
