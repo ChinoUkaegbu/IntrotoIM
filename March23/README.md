@@ -117,16 +117,6 @@ Source: https://www.circuitstoday.com/simple-led-projects-using-arduino
 
 This was a really cool project to do and I really enjoyed it. It was cool actually working with like tangible objects and seeing the way code kind of brought them to life.
 
-**Cool Things the Game Does**
+**Cool Things the Circuit Does**
 
-Okay so this isn't really cool but you might have noticed the alternator variable in the function. Basically all it does is help me switch between 0 and 1 using modulus
-``` js
-if ((circles[i]).y - (circles[i]).radius == height) {
-        alternator++;
-        if (alternator%2 == 0) {
-          circles[i].reset();
-        } else {
-          circles[i].fillers();
-        }
-```
-Okay it does sound a bit boring on its own but I used it to determine where the circles would appear from when they had been reset (either from the top or from the middle of the screen) which honestly leaves so much to wonder about the potential of modulus.
+Okay so this isn't really cool but I really like the way the lights dictate what's going on in the game. From the blinking yellow LEDs displaying their values, to the red LED which remains on until the game is won, and the green LED that comes on when the game is won. It just seemed really nice
