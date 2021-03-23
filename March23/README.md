@@ -13,16 +13,7 @@ The game I created is called Falling Objects and was inspired by a game I used t
 
 **How to Play the Game**
 
-This game involves a little memorization coupled with basic math\
-at the start of the game, the yellow LEDs will flash a certain number\
-of times corresponding to their assigned value. After all three yellow\
-LEDs have flashed, the red LED lights up indicating the start of the game\
-your task is to press the buttons corresponding to each LED in order to\
-get the value that will be displayed. There is a catch however! Each button\
-can only be pressed once as subsequent presses have no effect on the value.\
-The game can be solved with a maximum number of 3 unique button pushes\
-and as little as one button push.
-
+This game involves a little memorization coupled with basic math at the start of the game, the yellow LEDs will flash a certain number of times corresponding to their assigned value. After all three yellow LEDs have flashed, the red LED lights up indicating the start of the game your task is to press the buttons corresponding to each LED in order to get the value that will be displayed. There is a catch however! Each button can only be pressed once as subsequent presses have no effect on the value. The game can be solved with a maximum number of 3 unique button pushes and as little as one button push.
 
 **Process**
 
@@ -33,6 +24,9 @@ and as little as one button push.
 
 ![Schematic](images/Screenshot%20(298).jpg)
 
++ Also, here are the messages being displayed in the serial monitor while the game is running:
+
+![SerialMonitor](images/Screenshot_(293).jpeg)
 
 **Difficulties**
 
@@ -119,7 +113,9 @@ Source: https://www.circuitstoday.com/simple-led-projects-using-arduino
 
 ![4](images/Screenshot%20(297).jpeg)
 
-This was a really cool project to do and I thoroughly enjoyed it. I especially loved the sound effects because they sounded so real as though they had been produced by actual interaction between objects and not just lines of code. I also find the fact that we can simulate certain events just by writing code really intriguing and this project further fuelled my amazement. 
+**Conclusion**
+
+This was a really cool project to do and I really enjoyed it. It was cool actually working with like tangible objects and seeing the way code kind of brought them to life.
 
 **Cool Things the Game Does**
 
