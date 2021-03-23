@@ -1,4 +1,4 @@
-# Arduino Assignment - *Falling Objects*
+# Arduino Assignment
 
 ## Chinonyerem Ukaegbu
 
@@ -103,10 +103,21 @@ if(val==HIGH)
 }
 ```
 Source: https://www.circuitstoday.com/simple-led-projects-using-arduino
+
 **Possible Improvements**
 
++ The values of the LEDs being randomized instead of being fixed would make it a bit more interesting I guess
++ If I could get the counter to increment, there could be multiple ways to arrive at a solution
 
-**Conclusion**
+**Photos of Circuit**
+
+![1](images/Screenshot(294).jpg)
+
+![2](images/Screenshot%20(295).jpg)
+
+![3](images/Screenshot%20(296).jpg)
+
+![4](images/Screenshot%20(297).jpg)
 
 This was a really cool project to do and I thoroughly enjoyed it. I especially loved the sound effects because they sounded so real as though they had been produced by actual interaction between objects and not just lines of code. I also find the fact that we can simulate certain events just by writing code really intriguing and this project further fuelled my amazement. 
 
