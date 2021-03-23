@@ -22,7 +22,7 @@ This game involves a little memorization coupled with basic math at the start of
 + Then I started with the wiring. I I wanted it to look a little organized because there were a lot of parts on the board, so I tried to align the components and use similar coloured wires.
 + Below is the schematic diagram:
 
-![Schematic](images/Screenshot%20(298).jpg)
+![Schematic](images/Screenshot(298).jpg)
 
 + Also, here are the messages being displayed in the serial monitor while the game is running:
 
