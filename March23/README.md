@@ -7,10 +7,6 @@
 
 The task was to use at least three momentary switches (often called buttons), and at least three LEDs to create a puzzle that can be solved by pressing the buttons.
 
-**Inspiration**
-
-The game I created is called Falling Objects and was inspired by a game I used to play when i was younger called *The Incident*
-
 **How to Play the Game**
 
 This game involves a little memorization coupled with basic math at the start of the game, the yellow LEDs will flash a certain number of times corresponding to their assigned value. After all three yellow LEDs have flashed, the red LED lights up indicating the start of the game your task is to press the buttons corresponding to each LED in order to get the value that will be displayed. There is a catch however! Each button can only be pressed once as subsequent presses have no effect on the value. The game can be solved with a maximum number of 3 unique button pushes and as little as one button push.
