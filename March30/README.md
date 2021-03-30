@@ -81,9 +81,11 @@ Typecasts strings to integers
 + **Entering values into the serial monitor:**\
 I just assumed the serial monitor could only display values but you can actually enter values as well. I found this really interesting so I used it to save the name of the plant and the amount of drops of water per cycle the plant needed which I eventually used in the code as well
 
+
 **Possible Improvements**
 
-+ More functionality aside from just sunlight and water perhaps
++ More functionality aside from just sunlight and water perhaps.
+
 
 **Photos of Circuit**
 
@@ -100,6 +102,7 @@ I just assumed the serial monitor could only display values but you can actually
 **Conclusion**
 
 This was a really cool project to do and I really enjoyed it. I particularly enjoyed how interactive it was from naming the plant yourself, to entering how much water the plant needed
+
 
 **Cool Things the Circuit Does**
 
