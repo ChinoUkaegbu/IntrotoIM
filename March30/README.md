@@ -63,6 +63,7 @@ Here are the messages being displayed in the serial monitor while the game is ru
 
 ![SerialMonitor3](images/Screenshot%20(336).jpeg)
 
+Below is the link to the video:\
 [Link to Video](https://youtu.be/oaEOwxzFMIA)
 
 **Difficulties**
@@ -108,4 +109,4 @@ This was a really cool project to do and I really enjoyed it. I particularly enj
 
 **Cool Things the Circuit Does**
 
-It saves the name of the plant and displays it in the messages displayed on the Serial Monitor
+It saves the name of the plant and displays it in the messages displayed on the Serial Monitor.
