@@ -17,11 +17,13 @@ The task was to get information from at least one analog sensor and at least one
 + Then I started with the wiring. I I wanted it to look a little organized because there were a lot of parts on the board, so I tried to align the components and use similar coloured wires.
 + Below is the schematic diagram:
 
-![Schematic](images/Screenshot%20(298).jpg)
+![Schematic](images/Screenshot%20(333).jpeg)
 
 + Also, here are the messages being displayed in the serial monitor while the game is running:
 
-![SerialMonitor](images/Screenshot_(293).jpeg)
+![SerialMonitor1](images/Screenshot%20(334).jpeg)
+![SerialMonitor2](images/Screenshot%20(335).jpeg)
+![SerialMonitor3](images/Screenshot%20(336).jpeg)
 
 **Difficulties**
 
