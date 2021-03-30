@@ -19,6 +19,16 @@ The task was to get information from at least one analog sensor and at least one
 
 ![Schematic](images/Screenshot%20(333).jpeg)
 
++ To achieve the fading effect of the green LEd, I used the analogRead() and analogWrite() functions. However, I discovered that the analogRead() had a range from 0 to 1023 while the analogWrite() had a range from 0 to 255. Because I wanted the output from the analogRead() to be used to affect the  brightness of the LED, I created a variable, brightness, which was a quarter of the value gotten from analogRead() so that the values would correspond:
+
+```js
+int sensorValue = analogRead(LDR);
+
+brightness = sensorValue / 4; // because of the range of analogRead and analogWrite
+delay(30);
+analogWrite(GREENLED, brightness);
+```
+
 + Also, here are the messages being displayed in the serial monitor while the game is running:
 
 ![SerialMonitor1](images/Screenshot%20(334).jpeg)
