@@ -29,6 +29,31 @@ delay(30);
 analogWrite(GREENLED, brightness);
 ```
 
++ Then I created two variables: one that would be incremented and displayed each time the plant was "watered" and the other that would record the last state of the first variable. :
+
+```js
+if (buttonState != lastButtonState) {
+    // if the state has changed, increment the counter
+    if (buttonState == HIGH) {
+      buttonPushCounter++;
+      Serial.print("Drops of water: ");
+      Serial.println(buttonPushCounter);
+      if (buttonPushCounter % amountWater != 0) {
+        Serial.println(plantName + " needs more water");
+      }
+      else {
+        Serial.println(plantName + " has gotten enough water and sunlight for this cycle :)");
+      }
+
+      Serial.println();
+    }
+    // Delay a little bit to avoid bouncing (making and breaking of contact)
+    delay(50);
+  }
+  // save the current state as the last state, for next time through the loop
+  lastButtonState = buttonState;
+```
+
 + Also, here are the messages being displayed in the serial monitor while the game is running:
 
 ![SerialMonitor1](images/Screenshot%20(334).jpeg)
