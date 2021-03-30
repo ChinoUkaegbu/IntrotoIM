@@ -70,19 +70,15 @@ The major difficulty I faced was in printing some sentences in the serial monito
 **Interesting Things I Found:**
 
 + **Bouncing:**\
-
 "When you press a button down, it may not immediately make a complete connection. In fact, it may make contact on one side – then both – and then the other side – until it finally settles down. This making and breaking contact is called bouncing. It is not a manufacturing defect of the button – bouncing is implicit in most physical switches."
-
 
 + **string.trim():**\
 Removes leading and trailing whitespace from strings
 
 + **string.toInt():**\
-
 Typecasts strings to integers
 
 + **Entering values into the serial monitor:**\
-
 I just assumed the serial monitor could only display values but you can actually enter values as well. I found this really interesting so I used it to save the name of the plant and the amount of drops of water per cycle the plant needed which I eventually used in the code as well
 
 **Possible Improvements**
