@@ -8,7 +8,7 @@ The task was to get information from at least one analog sensor and at least one
 
 **Concept**
 
-*Plant Parents* is a program that helps keep track of the status of your imaginary plant and ensure that enough nutrients are getting to the plant. The plant needs adequate sunlight and water to grow. To control the amount of sunlight that the plant receives, simply regulate how much light gets to the light sensor on the bread board. The greenLED will dim or fade depending on how much sunlight the plant receives. To water your plant, simply push the button on the breadboard to deliver drops of water to the plant. Beware, if your plant has not received enough water for this cycle and sunlight levels drop too low, the red LED will flash and a message will be displayed.
+*Plant Parents* is a program that helps keep track of the status of your imaginary plant and ensure that enough nutrients are getting to the plant. The plant needs adequate sunlight and water to grow. To control the amount of sunlight that the plant receives, simply regulate how much light gets to the light sensor on the bread board. The green LED will dim or fade depending on how much sunlight the plant receives. To water your plant, simply push the button on the breadboard to deliver drops of water to the plant. The blue LED lights up each time water is delivered to the plant. Beware, if your plant has not received enough water for this cycle and sunlight levels drop too low, the red LED will flash and a message will be displayed.
 
 **Process**
 
