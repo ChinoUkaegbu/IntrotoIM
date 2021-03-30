@@ -54,86 +54,40 @@ if (buttonState != lastButtonState) {
   lastButtonState = buttonState;
 ```
 
-+ Also, here are the messages being displayed in the serial monitor while the game is running:
++ Then I wrote out the sections that would be printed in the serial monitor\
+Here are the messages being displayed in the serial monitor while the game is running:
 
 ![SerialMonitor1](images/Screenshot%20(334).jpeg)
+
 ![SerialMonitor2](images/Screenshot%20(335).jpeg)
+
 ![SerialMonitor3](images/Screenshot%20(336).jpeg)
 
 **Difficulties**
 
-+ **Randomizing the values:**\
-I was actually lowkey grateful for this difficulty because without it, I wouldn't have discovered the randomSeed() function. I noticed that anytime I printed the "random" value, it was the same number that popped up. It turns out that Arduino's random function isn't as random as I thought. I searched for help on Google and discovered that you could "initialize the pseudo-random number generator, causing it to start at an arbitrary point in its random sequence" using randomSeed() and not only did I fix the error, I also gained insight into how computers randomize values.
-
-+ **Incrementing the counter:**\
-I tried to increment the counter with each button push but the counter just stayed at some random position. I didn't fix this actually, I just worked my way around it outlined in this part of the code:
-
-```js
-if (switch1Position == HIGH) {
-      counter1 = 5;
-      digitalWrite(YELLOWLED1, HIGH);
-    } else  {
-      digitalWrite(YELLOWLED1, LOW);
-    }
-
-    if (switch2Position == HIGH) {
-      counter2 = 10;
-      digitalWrite(YELLOWLED2, HIGH);
-    } else  {
-      digitalWrite(YELLOWLED2, LOW);
-    }
-
-    if (switch3Position == HIGH) {
-      counter3 = 20;
-      digitalWrite(YELLOWLED3, HIGH);
-    } else  {
-      digitalWrite(YELLOWLED3, LOW);
-    }
-
-    sum = counter1 + counter2 + counter3;
-    if (sum == answer) {
-      digitalWrite(GREENLED, HIGH);
-      digitalWrite(REDLED, LOW);
-      Serial.print("Congratulations! You guessed right \n");
-      Serial.print("Game Over! \n");
-      startgame = false;
-```
-So that's basically why the buttons can only be pushed once to actually have an effect. Some may call it a design flaw, I see it as a way to make the game more challenging 😆
+The major difficulty I faced was in printing some sentences in the serial monitor but I was able to resolve it
 
 **Interesting Things I Found:**
 
-+ randomSeed()
-+ analogRead()
-+ I didn't use this, but I also found this cool function that basically made the momentary switches act as toggles, so instead of the LEDs going off when the button isn't being pushed, it actually stays on or off, depending. This is it: 
-```js
-const int LED=13;
-const int SW=7;
-boolean state = true; //declare variable state as boolean
-int val=0;
++ **Bouncing:**\
 
-void setup()
-{
-  pinMode(LED,OUTPUT);
-  pinMode(SW,INPUT);
-  }
-void loop()
-{
-  val=digitalRead(SW);
-  delay(120); // Software debouncing using 120ms delay
+"When you press a button down, it may not immediately make a complete connection. In fact, it may make contact on one side – then both – and then the other side – until it finally settles down. This making and breaking contact is called bouncing. It is not a manufacturing defect of the button – bouncing is implicit in most physical switches."
 
-if(val==HIGH)
 
-{state=!state; // Compliment variable state using ! operator
-  digitalWrite(LED,state);
-}
-}
-```
-Source: https://www.circuitstoday.com/simple-led-projects-using-arduino
++ **string.trim():**\
+Removes leading and trailing whitespace from strings
+
++ **string.toInt():**\
+
+Typecasts strings to integers
+
++ **Entering values into the serial monitor:**\
+
+I just assumed the serial monitor could only display values but you can actually enter values as well. I found this really interesting so I used it to save the name of the plant and the amount of drops of water per cycle the plant needed which I eventually used in the code as well
 
 **Possible Improvements**
 
-+ The values of the LEDs being randomized instead of being fixed would make it a bit more interesting I guess
-+ If I could get the counter to increment, there could be multiple ways to arrive at a solution
++ More functionality aside from just sunlight and water perhaps
 
 **Photos of Circuit**
 
@@ -149,17 +103,8 @@ Source: https://www.circuitstoday.com/simple-led-projects-using-arduino
 
 **Conclusion**
 
-This was a really cool project to do and I really enjoyed it. It was cool actually working with like tangible objects and seeing the way code kind of brought them to life.
+This was a really cool project to do and I really enjoyed it. I particularly enjoyed how interactive it was from naming the plant yourself, to entering how much water the plant needed
 
 **Cool Things the Circuit Does**
 
-Okay so this isn't really cool but I really like the way the lights dictate what's going on in the game. From the blinking yellow LEDs displaying their values, to the red LED which remains on until the game is won, and the green LED that comes on when the game is won. It just seemed really nice
-
-
-
-
-
-When you press a button down, it may not immediately make a complete connection. In fact, it may make contact on one side – then both – and then the other side – until it finally settles down.
-This making and breaking contact is called bouncing. It is not a manufacturing defect of the button – bouncing is implicit in most physical switches.
-
-Arduino has an analogRead range from 0 to 1023, and an analogWrite range only from 0 to 255
+It saves the name of the plant and displays it in the messages displayed on the Serial Monitor
