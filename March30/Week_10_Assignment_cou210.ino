@@ -53,7 +53,7 @@ void setup() {
   while (Serial.available() == 0) {}
   water = Serial.readString();
   water.trim();
-  Serial.println(water + "drops of water per cycle");
+  Serial.println(water + " drops of water per cycle");
   Serial.println();
 
   amountWater = water.toInt(); //typecasts the amount of water from a string to an integer
