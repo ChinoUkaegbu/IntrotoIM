@@ -63,6 +63,8 @@ Here are the messages being displayed in the serial monitor while the game is ru
 
 ![SerialMonitor3](images/Screenshot%20(336).jpeg)
 
+[Link to Video](https://youtu.be/oaEOwxzFMIA)
+
 **Difficulties**
 
 The major difficulty I faced was in printing some sentences in the serial monitor but I was able to resolve it
