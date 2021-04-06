@@ -79,11 +79,7 @@ void play_christmas() {
 + I made use of the serial monitor and here are some of the messages being displayed as the game is running:
 Here are the messages being displayed in the serial monitor while the game is running:
 
-![SerialMonitor1](images/Screenshot%20(334).jpeg)
-
-![SerialMonitor2](images/Screenshot%20(335).jpeg)
-
-![SerialMonitor3](images/Screenshot%20(336).jpeg)
+![SerialMonitor](images/Screenshot%20(372).jpeg)
 
 Below is the link to the video:\
 [Link to Video](https://youtu.be/oaEOwxzFMIA)
