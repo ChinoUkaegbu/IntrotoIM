@@ -81,9 +81,9 @@ Here are the messages being displayed in the serial monitor while the game is ru
 
 ![SerialMonitor](images/Screenshot%20(372).png)
 
-Below is the link to the video:\
+Below are the links to the videos:\
 [Music Player](https://www.youtube.com/watch?v=_6ZXNNd_vmo)
-
+[Music Maker](https://youtu.be/4T26GDzKUJk)
 **Difficulties**
 
 The major difficulty I faced was in organizing how the songs would be played. It was a bit messy at first but I was able to arrange it and it actually helped me a lot while debugging
