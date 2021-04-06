@@ -122,9 +122,9 @@ The major difficulty I faced was in organizing how the songs would be played. It
 
 ![3](images/Screenshot%20(369).jpg)
 
-![4](images/Screenshot%20(371).jpg)
+![4](images/Screenshot%20(370).jpg)
 
-![5](images/Screenshot%20(372).jpg)
+![5](images/Screenshot%20(371).jpg)
 
 **Conclusion**
 
