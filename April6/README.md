@@ -82,7 +82,7 @@ Here are the messages being displayed in the serial monitor while the game is ru
 ![SerialMonitor](images/Screenshot%20(372).png)
 
 Below is the link to the video:\
-[Link to Video](https://youtu.be/oaEOwxzFMIA)
+[Music Player](https://www.youtube.com/watch?v=_6ZXNNd_vmo)
 
 **Difficulties**
 
