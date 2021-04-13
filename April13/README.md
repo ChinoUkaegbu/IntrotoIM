@@ -108,15 +108,15 @@ The major difficulty I faced was in organizing how the songs would be played. It
 
 **Photos of Circuit**
 
-![1](images/Screenshot%20(367).jpg)
+![1](images/Screenshot%20(407).jpeg)
 
-![2](images/Screenshot%20(368).jpg)
+![2](images/Screenshot%20(408).jpeg)
 
-![3](images/Screenshot%20(369).jpg)
+![3](images/Screenshot%20(409).jpeg)
 
-![4](images/Screenshot%20(370).jpg)
+![4](images/Screenshot%20(410).jpeg)
 
-![5](images/Screenshot%20(371).jpg)
+![5](images/Screenshot%20(411).jpg)
 
 **Conclusion**
 
