@@ -80,6 +80,8 @@ if (pos == 0 || pos == 4 || pos == 5 || pos == 6 || pos == 10 || pos == 13 || po
 Below are the links to the videos:\
 [Music Player](https://www.youtube.com/watch?v=_6ZXNNd_vmo)
 [Music Maker](https://youtu.be/4T26GDzKUJk)
+
+
 **Difficulties**
 
 At first, the black keys were not being recognized in Processing. Then I realized I had to place the if statements at the end because they were laid over the other keys.
@@ -91,7 +93,7 @@ It seems kind of trivial, but placement of certain lines of code actually makes 
 
 **Possible Improvements**
 
-+ Having different songs that could be played. I actually tried to, but I didn't know how I would indicate that I wanted to learn another song, because it wasn't recognizing the button I placed.
+Having different songs that could be played. I actually tried to, but I didn't know how I would indicate that I wanted to learn another song, because it wasn't recognizing the button I placed.
 
 **Photos of Circuit**
 
