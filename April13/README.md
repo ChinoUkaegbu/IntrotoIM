@@ -82,29 +82,16 @@ Below are the links to the videos:\
 [Music Maker](https://youtu.be/4T26GDzKUJk)
 **Difficulties**
 
-The major difficulty I faced was in organizing how the songs would be played. It was a bit messy at first but I was able to arrange it and it actually helped me a lot while debugging
+At first, the black keys were not being recognized in Processing. Then I realized I had to place the if statements at the end because they were laid over the other keys.
+Also, the LEDs weren't lighting up at the right time. Then when I used else if, instead of if, they worked fine. I'm not exactly sure why but I think I have an idea why it works
 
 **Interesting Things I Found:**
 
-+ If you chose the first option in the menu, which deals with the light sensor, you have to regulate the ambient light in the surroundings for the sound to come out nicely and this has to be done in the first 5 seconds of running the code.
-
-```js
-
-  while (millis() < 5000) {
-    sensorValue = analogRead(LDR);
-    if (sensorValue > sensorHigh) {
-      sensorHigh = sensorValue;
-    }
-    if (sensorValue < sensorLow) {
-      sensorLow = sensorValue;
-    }
-  }
-
-```
+It seems kind of trivial, but placement of certain lines of code actually makes a huge difference.
 
 **Possible Improvements**
 
-+ Being able to switch from one mode to the other perhaps.
++ Having different songs that could be played. I actually tried to, but I didn't know how I would indicate that I wanted to learn another song, because it wasn't recognizing the button I placed.
 
 **Photos of Circuit**
 
@@ -120,4 +107,4 @@ The major difficulty I faced was in organizing how the songs would be played. It
 
 **Conclusion**
 
-This was a really cool project to do and I really enjoyed it. Working with more parts of the Arduino kit really blows my mind every time as it expands the possibilities for what we can create with the Arduino kit.
+This was a really nice project to do and it's really cool how Arduino and Processing can communicate.
