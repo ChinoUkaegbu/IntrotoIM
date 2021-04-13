@@ -16,75 +16,66 @@ When the tune is completed, the green LED is turned on, indicating that the game
 ![Piano_Interface](images/Screenshot%20(405).jpg)
 
 **Process**
++ I first got to work on the piano interface in Processing, to mimic a section of an actual piano
++ Then I defined each "piano key" with the appropriate not that would be played each time the mouse is clicked on that section e.g.
 
-+ I first got to work on the breadboard
-+ I got the parts of the circuit I would be using and placed the buzzer, photoresistor and LEDs on the breadboard, making sure to connect the appropriate resistors.
-+ Then I started with the wiring. I I wanted it to look a little organized because there were a lot of parts on the board, so I tried to align the components and use similar coloured wires.
+
+```js
+if (mouseX > 0 && mouseX < 115) {
+      note = "C";
+    }
+
+    if (mouseX > 115 && mouseX < 230) {
+      note = "D";
+    }
+    
+ ```
+ 
++ Then, when I was sure that each section of the piano had been accurately represented, I began writing the note variable to Arduino
+
+
++ In Arduino, I defined each note on the makeshift piano
++ Then, I used the note variable from Processing to define the frequency of the notes, e.g.
+
+
+```js
+if (note == "C") {
+      tone(buzzer, C, 100);
+    }
+    if (note == "C#") {
+      tone(buzzer, CS, 100);
+    }
+ ```
+ 
++ Then I got to work on the breadboard
++ I got the parts of the circuit I would be using and placed the buzzer and LEDs on the breadboard, making sure to connect the appropriate resistors.
++ Then I started with the wiring. It was much faster than usual, because I was finally getting used to wiring, so yay!
 + Below is the schematic diagram:
 
-![Schematic](images/Screenshot%20(366).jpeg)
+![Schematic](images/Screenshot%20(406).jpg)
 
-+ Then I got to work on the section that would involve creating music
-+ I wanted to create a rhythm that wouldn't be too complicated and I wanted the pitch to be controlled by the photoresistor so that the amount of light being received would either increase or reduce the pitch.
-+ I stumbled upon this very helpful example and modified it to use in my code: https://www.reddit.com/r/arduino/comments/34fcyz/making_shitty_techno_with_an_arduino/cqu5zwq/
-+ The segment of code is shown below:
++ When the breadboard was in place, I got to work on implementing the code
++ After I was sure that each click on Processing would result in the appropriate note being played on Arduino, I wrote out the notes for the song that would be used (Mary Had a Little Lamb)
++ Then, when I figured out the arrangement, I created a variable, pos, that would be incremented only when the appropriate key is played, to move on to the next note
++ Then, I created the checkNotes() function that was responsible for incrementing pos and lighting up the blue LED, if the user was on track, the red LED if the user had missed that note and the green LED if the user had won
 
-
-```js
- float pitch = map(sensorValue, sensorLow, sensorHigh, 55, 900);
-    if (pitch < 60.205 ) {
-      pitch = 55; // A
-    }
-```
-and so on for different intervals.
-
-+ This results in an interesting rhythm whenever the light hitting the sensor changes.
-
-+ Then I got to work on the portion that would play the songs
-+ I first picked out the three songs that had already been writen using Arduino's note library (the link was: https://github.com/robsoncouto/arduino-songs)
-+ Some parts of the song were unnecessary, so I got rid of them. It was really fun to count the notes as the song played but I got really tired of hearing the same tune over again.
-+ I then set the tempo for each song accordingly and created separate functions to play each song so that it would be organized
-+ Here is the portion that plays the christmas song for instance:
 
 ```js
-void play_christmas() {
-  tempo = 140;
-  int notes = sizeof(christmas) / sizeof(christmas[0]) / 2;
-
-  // this calculates the duration of a whole note in ms
-  int wholenote = (60000 * 4) / tempo;
-
-  int divider = 0, noteDuration = 0;
-  for (int thisNote = 0; thisNote < notes * 2; thisNote = thisNote + 2) {
-
-    // calculates the duration of each note
-    divider = christmas[thisNote + 1];
-    if (divider > 0) {
-      // regular note, just proceed
-      noteDuration = (wholenote) / divider;
-    } else if (divider < 0) {
-      // dotted notes are represented with negative durations!!
-      noteDuration = (wholenote) / abs(divider);
-      noteDuration *= 1.5; // increases the duration in half for dotted notes
+if (pos == 0 || pos == 4 || pos == 5 || pos == 6 || pos == 10 || pos == 13 || pos == 17 || pos == 18 || pos == 19 || pos == 23) {
+    if (note == "E") {
+      digitalWrite(BLUELED, HIGH);
+      digitalWrite(REDLED, LOW);
+      pos++;
     }
-
-    // we only play the note for 90% of the duration, leaving 10% as a pause
-    tone(buzzer, christmas[thisNote], noteDuration * 0.9);
-
-    // Wait for the specief duration before playing the next note.
-    delay(noteDuration);
-
-    // stop the waveform generation before the next note.
-    noTone(buzzer);
+    else {
+      digitalWrite(BLUELED, LOW);
+      digitalWrite(REDLED, HIGH);
+    }
   }
-}
-```
+  ```
 
-+ Then began working on the menu and essentially how the user would interact with the program
-+ I made use of the serial monitor and here are some of the messages being displayed as the game is running:
-Here are the messages being displayed in the serial monitor while the game is running:
++ Also, the user is unable to move to the next note unless the tune is followed
 
-![SerialMonitor](images/Screenshot%20(372).png)
 
 Below are the links to the videos:\
 [Music Player](https://www.youtube.com/watch?v=_6ZXNNd_vmo)
