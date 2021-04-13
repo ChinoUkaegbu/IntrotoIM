@@ -13,6 +13,8 @@ The Processing code displays an interface mimicking a section of a piano (as sho
 The Arduino code tracks the progress of the user. The blue LED lights up if the user is on track but if a wrong note is played, the red LED is turned on and is only turned off if the appropriate note is played.
 When the tune is completed, the green LED is turned on, indicating that the game has been won.
 
+![Piano_Interface](images/Screenshot%20(405).jpeg)
+
 **Process**
 
 + I first got to work on the breadboard
