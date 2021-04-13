@@ -52,7 +52,7 @@ if (note == "C") {
 + Then I started with the wiring. It was much faster than usual, because I was finally getting used to wiring, so yay!
 + Below is the schematic diagram:
 
-![Schematic](images/Screenshot%20(406).jpg)
+![Schematic](images/Screenshot%20(406).jpeg)
 
 + When the breadboard was in place, I got to work on implementing the code
 + After I was sure that each click on Processing would result in the appropriate note being played on Arduino, I wrote out the notes for the song that would be used (Mary Had a Little Lamb)
