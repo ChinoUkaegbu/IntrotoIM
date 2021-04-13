@@ -32,8 +32,7 @@ if (mouseX > 0 && mouseX < 115) {
  ```
  
 + Then, when I was sure that each section of the piano had been accurately represented, I began writing the note variable to Arduino
-
-
+<br>
 + In Arduino, I defined each note on the makeshift piano
 + Then, I used the note variable from Processing to define the frequency of the notes, e.g.
 
