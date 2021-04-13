@@ -109,4 +109,4 @@ Having different songs that could be played. I actually tried to, but I didn't k
 
 **Conclusion**
 
-This was a really nice project to do and it's really cool how Arduino and Processing can communicate.
+This was a really nice project to do and it's really cool how Arduino and Processing can communicate and actually like, work meaningfully.
