@@ -75,11 +75,11 @@ void loop() {
     if (note == "B") {
       tone(buzzer, B, 100);
     }
-    playNotes();
+    checkNotes();
   }
 }
 
-void playNotes() {
+void checkNotes() {
 
 
   if (pos == 0 || pos == 4 || pos == 5 || pos == 6 || pos == 10 || pos == 13 || pos == 17 || pos == 18 || pos == 19 || pos == 23) {
