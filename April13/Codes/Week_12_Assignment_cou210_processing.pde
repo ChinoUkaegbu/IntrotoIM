@@ -1,3 +1,9 @@
+/*This is the Production Assignment for Week 12
+  "Piano Player"
+  Chinonyerem Ukaegbu
+  13 April, 2021
+*/
+
 import processing.serial.*;
 Serial port;
 
