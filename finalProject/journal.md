@@ -12,7 +12,7 @@ The current version is limited and has only one song but I plan on adding more f
 
 **Arduino**
 
-The circuit would be like the circuit from the last project which I'm linking in the bracket (https://github.com/ChinoUkaegbu/IntrotoIM/tree/main/April13), but with the addition of a switch to indicate that the user is done playing the tune in *Expert Mode*
+The circuit would be like the circuit from the last project which I'm linking here (https://github.com/ChinoUkaegbu/IntrotoIM/tree/main/April13), but with the addition of a switch to indicate that the user is done playing the tune in *Expert Mode*
 
 **Processing**
 
