@@ -26,3 +26,9 @@ The menu should kind of look like this (please spare my far from art work sketch
 **Fears**
 
 My biggest concern is how Processing and Arduino will communicate. It's working perfectly fine now, but with the new improvements, will it stop working? I guess I'll have to implment it and find out
+
+**Side Note**
+
+Also, I was thinking of having a backgorund like this, IDK, it just looks so rustic and gives off the whole piano playing in a castle on a rainy night vibe
+
+![Background_Maybe](images/Background_Maybe.jpg)
