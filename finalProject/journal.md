@@ -11,7 +11,11 @@ The current version is limited and has only one song but I plan on adding more f
 + improving programming aesthetics, a nice background maybe, and background music playing in the menu and instructions tab, just to like make it look nice you know
 
 **Arduino**
+
 The circuit would be like the circuit from the last project which I'm linking in the bracket (https://github.com/ChinoUkaegbu/IntrotoIM/tree/main/April13), but with the addition of a switch to indicate that the user is done playing the tune in *Expert Mode*
 
 **Processing**
+
 The menu should kind of look like this (please spare my far from art work sketches😂):
+
+![Menu_Draft](images/Menu_Draft.jpeg)
