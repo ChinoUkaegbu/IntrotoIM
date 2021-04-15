@@ -29,6 +29,6 @@ My biggest concern is how Processing and Arduino will communicate. It's working 
 
 **Side Note**
 
-Also, I was thinking of having a backgorund like this, IDK, it just looks so rustic and gives off the whole piano playing in a castle on a rainy night vibe
+Also, I was thinking of having a background like this, IDK, it just looks so woody??! and gives off the whole spooky, piano playing in a castle on a rainy night vibe
 
 ![Background_Maybe](images/Background_Maybe.jpg)
