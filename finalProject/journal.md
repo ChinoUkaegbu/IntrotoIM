@@ -1,6 +1,6 @@
 # Final Project Proposal
 
-## Chinonyerem
+## Chinonyerem Ukaegbu
 
 **Description**
 
@@ -19,3 +19,10 @@ The circuit would be like the circuit from the last project which I'm linking in
 The menu should kind of look like this (please spare my far from art work sketches😂):
 
 ![Menu_Draft](images/Menu_Draft.jpeg)
+
++ In addition to the already implemented functions, Processing would have to create this menu, display it, recognize mouse clicks and yeah
++ Some variables to keep track of what options are being selected
+
+**Fears**
+
+My biggest concern is how Processing and Arduino will communicate. It's working perfectly fine now, but with the new improvements, will it stop working? I guess I'll have to implment it and find out
