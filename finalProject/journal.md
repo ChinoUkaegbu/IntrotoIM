@@ -32,3 +32,7 @@ My biggest concern is how Processing and Arduino will communicate. It's working 
 Also, I was thinking of having a background like this, IDK, it just looks so woody??! and gives off the whole spooky, piano playing in a castle on a rainy night vibe
 
 ![Background_Maybe](images/Background_Maybe.jpg)
+
+**21st April 2021**
+
+I created the functions that would check if the correct notes were playing for the 2 additional songs I added (so now there are three songs: Mary Had a Little Lamb, A Thousand Years and Willow)
