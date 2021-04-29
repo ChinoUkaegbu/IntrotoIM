@@ -42,3 +42,9 @@ http://www.mintmusic.co.uk/2021/02/willow-taylor-swift.html
 **24th April 2021**
 
 The pauses between each key press have to be longer to avoid arduino mixing up the notes. I wonder why?
+
+**GIFs**
+
+![creditsDemo](images/credits_demo.gif)
+
+![instructionsDemo](images/instructions_demo.gif)
