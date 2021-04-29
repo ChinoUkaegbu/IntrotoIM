@@ -48,3 +48,11 @@ The pauses between each key press have to be longer to avoid arduino mixing up t
 ![creditsDemo](images/credits_demo.gif)
 
 ![instructionsDemo](images/instructions_demo.gif)
+
+**Pictures**
+
+![level_menu](images/level_menu.png)
+![credits_menu](images/credits_menu.png)
+![instructions_menu](images/instructions_menu.png)
+![start_menu](images/start_menu.png)
+![song_menu](images/song_menu.png)
