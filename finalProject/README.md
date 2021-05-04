@@ -99,11 +99,12 @@ I was having difficulties writing both the variable responsible for playing the 
 ![5](images/board/Screenshot%20(411).jpg)
 
 
-**GIFs**
+**GIFs of Menus**
 
 ![creditsDemo](images/credits_demo.gif)
 
 ![instructionsDemo](images/instructions_demo.gif)
 
-**Pictures**
+**Conclusion:**
 
+This was a really cool final project to do and it really deepened my understanding of serial communication between Arduino and Processing. I've thoroughly enjoyed all projects this semester and have learnt a lot.
