@@ -55,7 +55,7 @@ void mouseClicked() {
 
 + Then, I created the functions that would check if the correct notes were playing for the 2 additional songs I added (so now there are three songs: Mary Had a Little Lamb, A Thousand Years and Willow)
 
-References to the sonngs: http://www.mintmusic.co.uk/2015/04/a-thousand-years-christina-perri.html
+References to the sonngs: http://www.mintmusic.co.uk/2015/04/a-thousand-years-christina-perri.html \
 http://www.mintmusic.co.uk/2021/02/willow-taylor-swift.html
 
 **24th April 2021**
