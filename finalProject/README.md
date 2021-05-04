@@ -1,37 +1,34 @@
-# Final Project Proposal
+# Final Project - *Piano Player 2.0*
 
 ## Chinonyerem Ukaegbu
 
 **Description**
 
-For my final project, I'd like to continue the idea from Piano Player, the game I created for Tuesday's project.
-The current version is limited and has only one song but I plan on adding more functionality, particularly:
-+ creating more modes for the user to play in. The current mode is called the *Learning Mode* because the user is not allowed to progress to the next note until they have mastered the note before. But in the *Expert Mode*, the user will play the tune at one go and signify that they are done by pushing a button. If they are correct, they get to advance, but if not, they have to restart the entire level
-+ adding more songs, with increasing difficulty, to make the game more interesting
-+ improving programming aesthetics, a nice background maybe, and background music playing in the menu and instructions tab, just to like make it look nice you know
+For my final project, I created a game which was a continutation of the Piano Player game from last week.
+The current version of the game, Piano Player 2.0 has more functionality than the previous version ([Link to Piano Player](https://github.com/ChinoUkaegbu/IntrotoIM/tree/main/April13)):
 
-**Arduino**
++ There are two modes: Learning Mode and Expert Mode
++ Improved aesthetics and navigation
 
-The circuit would be like the circuit from the last project which I'm linking here (https://github.com/ChinoUkaegbu/IntrotoIM/tree/main/April13), but with the addition of a switch to indicate that the user is done playing the tune in *Expert Mode*
+**Process**
 
-**Processing**
+Since I had gotten the piano keys working previously, I created the menus which would help the users navigate from page to page
 
-The menu should kind of look like this (please spare my far from art work sketches😂):
+Start Menu
+![start_menu](images/start_menu.png)
 
-![Menu_Draft](images/Menu_Draft.jpeg)
+Instructions Menu
+![instructions_menu](images/instructions_menu.png)
 
-+ In addition to the already implemented functions, Processing would have to create this menu, display it, recognize mouse clicks and yeah
-+ Some variables to keep track of what options are being selected
+Credits Menu
+![credits_menu](images/credits_menu.png)
 
-**Fears**
+Level Menu
+![level_menu](images/level_menu.png)
 
-My biggest concern is how Processing and Arduino will communicate. It's working perfectly fine now, but with the new improvements, will it stop working? I guess I'll have to implment it and find out
+Song Menu
+![song_menu](images/song_menu.png)
 
-**Side Note**
-
-Also, I was thinking of having a background like this, IDK, it just looks so woody??! and gives off the whole spooky, piano playing in a castle on a rainy night vibe
-
-![Background_Maybe](images/Background_Maybe.jpg)
 
 **21st April 2021**
 
@@ -51,8 +48,3 @@ The pauses between each key press have to be longer to avoid arduino mixing up t
 
 **Pictures**
 
-![level_menu](images/level_menu.png)
-![credits_menu](images/credits_menu.png)
-![instructions_menu](images/instructions_menu.png)
-![start_menu](images/start_menu.png)
-![song_menu](images/song_menu.png)
