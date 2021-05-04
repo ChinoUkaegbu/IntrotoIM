@@ -15,18 +15,23 @@ The current version of the game, Piano Player 2.0 has more functionality than th
 Since I had gotten the piano keys working previously, I created the menus which would help the users navigate from page to page
 
 Start Menu
+
 ![start_menu](images/start_menu.png)
 
 Instructions Menu
+
 ![instructions_menu](images/instructions_menu.png)
 
 Credits Menu
+
 ![credits_menu](images/credits_menu.png)
 
 Level Menu
+
 ![level_menu](images/level_menu.png)
 
 Song Menu
+
 ![song_menu](images/song_menu.png)
 
 
