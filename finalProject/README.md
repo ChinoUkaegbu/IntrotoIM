@@ -70,6 +70,11 @@ port.write(song + note);
 
 ```
 
+**Demos:**
+
+[Beginner Mode](https://youtu.be/1cOGh1KPvyQ)
+[Expert Mode](https://youtu.be/iVKGm5_vhDQ)
+
 **Difficulties:**
 
 + **Writing two variables to the serial port:**\
