@@ -465,7 +465,7 @@ void loop() {
 
   // check if data has been sent from the computer:
   if (Serial.available()) {
-    // read the note that was played:
+    // read the song that was chosen and the note that was played:
     song = Serial.parseInt();
     note = Serial.readString();
     note.trim();  // removes trailing characters
