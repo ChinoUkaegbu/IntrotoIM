@@ -86,6 +86,19 @@ I was having difficulties writing both the variable responsible for playing the 
 
 ```
 
+**Photos of Circuit:**
+
+![1](images/board/Screenshot%20(407).jpeg)
+
+![2](images/board/Screenshot%20(408).jpeg)
+
+![3](images/board/Screenshot%20(409).jpeg)
+
+![4](images/board/Screenshot%20(410).jpeg)
+
+![5](images/board/Screenshot%20(411).jpg)
+
+
 **GIFs**
 
 ![creditsDemo](images/credits_demo.gif)
