@@ -58,10 +58,33 @@ void mouseClicked() {
 References to the songs: http://www.mintmusic.co.uk/2015/04/a-thousand-years-christina-perri.html \
 http://www.mintmusic.co.uk/2021/02/willow-taylor-swift.html
 
-**Schematic and Photos of Circuit:**
++ This is the schematic:
 
-![Schematic](images/Screenshot%20(406).jpeg)
+![Schematic](images/board/Screenshot%20(406).jpeg)
 
++ Then I created another variable that would indicate what song was being played (and indirectly, what mode the player was using), and wrote that from Processing to Arduino:
+
+```js
+
+port.write(song + note);
+
+```
+
+**Difficulties:**
+
++ **Writing two variables to the serial port:**\
+I was having difficulties writing both the variable responsible for playing the note when the mouse was clicked and the variable that would determine what song was being played. The song variable was an integer while the note variable was a string. I eventually figured out that I could use the Serial.parseInt() and the Serial.readString(); because it turns out the Serial monitor, once it has read a value, removes it from the buffer. This is the code snippet:
+
+```js
+
+  // check if data has been sent from the computer:
+  if (Serial.available()) {
+    // read the song that was chosen and the note that was played:
+    song = Serial.parseInt();
+    note = Serial.readString();
+    note.trim();  // removes trailing characters
+
+```
 
 **GIFs**
 
