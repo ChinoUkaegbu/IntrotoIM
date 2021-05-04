@@ -59,7 +59,8 @@ References to the songs: http://www.mintmusic.co.uk/2015/04/a-thousand-years-chr
 http://www.mintmusic.co.uk/2021/02/willow-taylor-swift.html
 
 **Schematic and Photos of Circuit:**
-[Schematic] (https://github.com/ChinoUkaegbu/IntrotoIM/blob/main/April13/images/Screenshot%20(406).jpeg)
+
+![Schematic](images/Screenshot%20(406).jpeg)
 
 
 **GIFs**
