@@ -1,6 +1,5 @@
 # IntrotoIM
-## This is smaller
-### This is even smaller
-#### This is even more smaller
-*This should be in italics*
-**This should be bold**
+This repository contains all the projects I made in the Spring 2021 Introduction to Interactive Media class.
+<ul>
+  <li><a href="">Boundaries</a> - a</li>
+</ul>
